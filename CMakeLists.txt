@@ -5,7 +5,8 @@ if(MSVC)
     add_compile_options(/utf-8)
 endif()
 
-find_package(OpenCV CONFIG REQUIRED PATHS "D:/OpenCV/build" NO_DEFAULT_PATH)
+set(YOUR_OPENCV_INSTALL_PATH "D:/OpenCV/build" CACHE FILEPATH "Where is OpenCV library located?")
+find_package(OpenCV CONFIG REQUIRED PATHS ${YOUR_OPENCV_INSTALL_PATH} NO_DEFAULT_PATH)
 
 add_subdirectory(HW01)
 add_subdirectory(HW02)

@@ -1,3 +1,8 @@
+/**
+ * @file main.cpp
+ * @author 蔣博元
+ * @brief 將圖片轉灰階
+*/
 #include <opencv2/opencv.hpp>
 #include <iostream>
 

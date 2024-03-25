@@ -10,3 +10,4 @@ find_package(OpenCV CONFIG REQUIRED PATHS ${YOUR_OPENCV_INSTALL_PATH} NO_DEFAULT
 
 add_subdirectory(HW01)
 add_subdirectory(HW02)
+add_subdirectory(HW03)

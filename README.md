@@ -1,3 +1,11 @@
+# About
+
+「花凱龍 - 多媒體實習導論」的課堂作業。
+
+# Dependency
+
+- [OpenCV](https://opencv.org/releases/)
+
 # Cache Variable
 
 | Variable                   | Description|
